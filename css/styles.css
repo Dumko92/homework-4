@@ -343,21 +343,20 @@ padding-bottom: 94px;
 }
 
 
-.team-soc-link:hover, .team-soc-link:focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
     background-color: var(--accent-color);
 }
 
 
-.team-soc-link:hover .team-soc-icon, 
+.team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
-     fill: #FFFFFF;
+    fill: #FFFFFF;
 }
-
 
 .team-soc-icon {
     fill: #AFB1B8;
 }
-
 
 /* footer */
 
