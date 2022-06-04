@@ -141,6 +141,7 @@ body {
 /* studio */
 
 .studio {
+    max-width: 1600px;
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
@@ -150,11 +151,13 @@ body {
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .studio-title {
     width: 696px;
-    height: 120px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -163,7 +166,13 @@ body {
     text-transform: uppercase;
     color: var(--btn-font-color);
     margin-bottom: 30px;
-    margin-left: 250px;
+}
+
+.studio-titlt-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -452,9 +461,9 @@ padding-bottom: 94px;
     padding-bottom: 60px;
 }
 
+
 .footer-logo {
     margin-bottom: 20px;
-    display: block;
 }
 
 .web-footer {
@@ -493,11 +502,7 @@ padding-bottom: 94px;
     color: var(--btn-font-color);
 }
 
-.footer-list {
-    width: 230px;
-    height: 80px;
-    padding-bottom: 60px;
-}
+
 
 .footer-link-address {
     font-style: normal;
@@ -507,7 +512,6 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--btn-font-color);
     margin-bottom: 9px;
-    display: block;
 }
 
 .footer-link-mail {
@@ -518,7 +522,6 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--text-color);
     margin-bottom: 9px;
-    display: block;
 }
 
 .footer-link-tel{
@@ -529,6 +532,43 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-font-color);
+}
+
+.footer-container-item {
+    width: 206px;
+    height: 80px;
+}
+
+.footer-list {
+    width: 230px;
+    height: 80px;
+}
+
+
+.footer-address-list {
+    display: flex;
+    
+}
+
+.footer-container-list {
+    margin-right: 70px;
+}
+
+
+
+
+
+
+
+
 
 /* portfolio */
 
