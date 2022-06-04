@@ -385,6 +385,7 @@ padding-bottom: 94px;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    margin-left: 80px;
     display: flex;
 }
 
@@ -397,19 +398,28 @@ padding-bottom: 94px;
     margin-right: var(--typical-margin);
 }
 
-
+.clients-link {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    fill: #AFB1B8;
+    display: flex;
+}
 
 .clients-link {
-    fill: #AFB1B8;
-    }
+    fill: currentColor;
+}
 
 .clients-our-icon:hover, .clients-our-icon:focus {
     fill: var(--accent-color);
+    
+    
 }
 
 .clients-our-item:hover,
 .clients-our-item:focus {
-    border: solid 1px var(--accent-color)
+    border: solid 1px #2196F3
 }
 
 /* footer */
