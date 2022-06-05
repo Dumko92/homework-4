@@ -113,13 +113,25 @@ body {
 
 
 .header-tel, .header-mail {
+    width: 100%;
+    height: 100%;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.header-mail-tel-item {
+    margin-left: 50px;
+}
+
+.header-soc-icon {
+    margin-right: 10px;
+}
 
 .header-link:hover, 
 .header-link:focus, 
@@ -131,10 +143,18 @@ body {
 }
 
 
-.header-mail-tel-item {
-    margin-left: 50px;
+.header-tel,
+.header-mail {
+    fill: currentColor;
 }
 
+
+.header-tel:hover,
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color);
+}
 
 
 
@@ -668,7 +688,17 @@ padding-bottom: 94px;
 .portfolio-btn:hover, .portfolio-btn:focus {
     color: var(--btn-font-color);
     background: var(--accent-color);
+    border: none;
 }
+
+
+
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 
 
 .portfolio-content {
